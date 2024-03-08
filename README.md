@@ -1,7 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : SAKTHISWAR S
-Roll no : 212222230127
-Date of experiment : 
+### Name : SAKTHISWAR S
+### Roll no : 212222230127
 
 
 
@@ -109,6 +108,7 @@ ret
 ```
  
 ## Output  
+![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/SUB.png)
 
 ## Multiplication alp 
 
@@ -123,6 +123,7 @@ HLT
 ret
 ```
  ## Output  
+ ![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/MUL.png)
 
 
 ## Division alp 
@@ -139,6 +140,7 @@ ret
 ```
 
 ## Output  
+![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/DIV.png)
 
 
 ## Result :
