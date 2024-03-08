@@ -99,8 +99,8 @@ ret
 ```python
 
 org 100h
-MOV AL,83H
-MOV BL,64H
+MOV AL,84H
+MOV BL,63H
 SUB AL,BL
 HLT
 
