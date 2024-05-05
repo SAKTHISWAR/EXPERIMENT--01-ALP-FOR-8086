@@ -1,6 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-### Name : SAKTHISWAR S
-### Roll no : 212222230127
+#### Name : SAKTHISWAR S
+#### Roll no : 212222230127
+#### Date of experiment : 
+
+
+
 
 
 
@@ -14,12 +18,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
-4.	 Compile the program and check for the errors 
+4.	Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
@@ -76,83 +80,117 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition of 8 bit ALP  
 ```python
-
-org 100h
-MOV AL,74H
-MOV BL,69H
-ADD AL,BL
+Mov AL,74H
+Mov BL,69H
+Add AL,BL
 HLT
-
-ret
 ```
-
-
-
 ## Output  
-
-![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/add%20.png)
  
-## Subtraction   of 8 bit numbers  ALP 
+![Addition](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/5f44a6c1-d56d-49ef-b0f9-a676ba1958e4)
 
+ 
+## Subtraction of 8 bit ALP
 ```python
-
-org 100h
-MOV AL,84H
-MOV BL,63H
-SUB AL,BL
+Mov AL,84H
+Mov BL,63H
+Sub AL,BL
 HLT
-
-ret
 ```
- 
-## Output  
-![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/SUB.png)
+## Output
+![Subtraction](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/76414450-d504-4abe-a5be-7b307cbcab90)
 
-## Multiplication alp 
 
+
+
+## Multiplication ALP
 ```python
 
 org 100h
 MOV AL,75H
 MOV BL,32H
-MUL AL,BL
+MUL BL
 HLT
 
 ret
 ```
  ## Output  
- ![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/MUL.png)
+
+![multi](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/c0f9a189-728b-4690-ae07-54ce4e214fb6)
 
 
-## Division alp 
 
+## Division ALP
 ```python
 
 org 100h
 MOV AL,68H
 MOV BL,18H
-DIV AL,BL
+DIV BL
 HLT
+
 
 ret
 ```
-
 ## Output  
-![image](https://github.com/SAKTHISWAR/EXPERIMENT--01-ALP-FOR-8086/blob/main/DIV.png)
+
+
+![Div](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/d250c921-5e59-449d-acd4-7ada80ecf5fd)
+
+
+## Programs for logical  operations
+
+## AND
+```python
+Mov AL,33H
+Mov BL,44H
+AND AL,BL
+HLT
+```
+## Output 
+![AND_operation](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/2d0ef273-3047-406d-9254-260b3ceb2c65)
+
+
+
+## OR
+```python
+Mov AL,45H
+Mov BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![OR_Operation](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/91fdce70-6088-4e6b-b43f-49d929f4d0ca)
+
+
+
+## NOT
+```python
+Mov AL,65H
+NOT AL
+HLT
+
+
+```
+## Output
+
+![NOT_Operation](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/bae841d8-499f-46f7-a221-e994de1be223)
+
+
+## XOR
+```python
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+## Output
+![Xor](https://github.com/gummadileepkumar/EXPERIMENT--01-ALP-FOR-8086/assets/118707761/99260262-9e4e-4449-aead-407c9e2eda0c)
 
 
 ## Result :
-Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
-
-
- 
-
-
-
-
-
-
-
-
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
